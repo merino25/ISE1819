@@ -146,25 +146,3 @@ UPTAME EL MAYOR POSIBLE  (disponibilidad el máximo tiempo posible sin caidas).
 
 
 
-
-
-## Pasos:
-
-### 1. Instalamos un certificado SSL autofirmado (acceder mediante HTTPS)
-Generamos e instalamos un certificado autofirmado y reiniciamos apache
-(apache2 enable mods)
-```
-sudo a2enmod ssl
-sudo service apache2 restart
-```
-
-![a2enmodssl](images/a2enmodssl.PNG) 
-
-Editamos el archivo de configuración del sitio default-ssl
-```
-sudo nano /etc/apache2/sites-available/default-ssl
-```
-Añadimos debajo de "SSLENGINE on"
-*SSLCertificateFile /etc/apache2/ssl/apache.crt*
-*SSLCertificateKeyFile /etc/apache2/ssl/apache.key*
-![nanodefaultssl](images/nanodefaultssl.PNG) 
