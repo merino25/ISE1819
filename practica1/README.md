@@ -1,4 +1,4 @@
-# Practica 1. INGENIERÍA DE SERVIDORES. UGR
+# Práctica 1. INGENIERÍA DE SERVIDORES. UGR
 ## Virtualización e instalación de Sistemas Operativos
 
 OBJETIVOS MÍNIMOS
