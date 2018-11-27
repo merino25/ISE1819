@@ -11,7 +11,7 @@
 ## NOTA:
 **La IP de la máquina de Ubuntu Server es: 192.168.56.105**
 
-**La IP de LA máquina de centOS es:		   192.168.56.110**
+**La IP de la máquina de centOS es:		   192.168.56.110**
 
 **Previamente hemos configurado SSH para que se realice mediante el puerto 22022 en ambas máquinas**
 
