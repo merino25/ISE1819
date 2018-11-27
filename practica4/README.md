@@ -299,6 +299,10 @@ Applications: SSH service
 
 :tada:  :tada:  :tada: :tada: :tada: 
 
+(Una forma de comprobar que zabbix está activo, en la máquina de Ubuntu Server instalamos zabbix_get con
+`apt install zabbix-get` y comprobamos que funcione con `zabbix_get -s 192.168.56.110 -p 10050 -k "net.tcp.service[ssh, , 22022]"`)
+
+
 **Ahora podemos monitorizar diversos servicios de nuestras maquinas como SSH O HTTP o incluso la carga**
 
 ![graficassh](images/graficassh.JPG)
