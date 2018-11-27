@@ -1,5 +1,6 @@
 # Practica 4. Ingeniería de Servidores. UGR
-##Instalación de Zabbix en Ubuntu Server y centOS 
+
+## Instalación de Zabbix en Ubuntu Server y centOS 
 
 
 * Zabbix es un Sistema de Monitorización de Redes. Está diseñado para monitorizar y registrar el estado de varios servicios de red, Servidores, y hardware de red.
@@ -7,7 +8,7 @@
 
 
 
-##NOTA:
+## NOTA:
 **La IP de la máquina de Ubuntu Server es: 192.168.56.105**
 
 **La IP de LA máquina de centOS es:		   192.168.56.110**
@@ -109,14 +110,12 @@ Comprobamos el estado del Servidor de Zabbix con: `systemctl status zabbix-serve
 
 ![zabbixserverfuncionaubuntuserver](images/zabbixserverfuncionaubuntuserver.JPG)
 
-
-
 ### 2. Configuración de la Interfaz Web de Zabbix
 
 *Introducimos en nuestro navegador de confianza:* `
 
 ```
-192.168.56.106.zabbix
+192.168.56.105.zabbix
 ```
 Pasamos de la ventana de Bienvenida, (Welcome) a la pantalla Check of pre-requisites, vamos pasando con la pestaña Next step.
 
@@ -158,6 +157,7 @@ Aceptamos la Pre-instalación y la instalación y ya hemos finalizado la instala
 Ahora ya podemos acceder al dashboard de monitorización, ahora vamos a configurar el agente.
 
 ### 3. Configuración del Agente Zabbix en Ubuntu Server
+
 Vamos a instalar el paquete correspondiente y lo iniciamos:
 
 ```
@@ -172,11 +172,11 @@ systemctl status zabbix-agent
 
 
 ### 3. Configuración del Agente Zabbix en centOS
+
 Vamos a instalar el paquete correspondiente y lo iniciamos:
 
 ```
 rpm -ivh https://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64/zabbix-release-3.4-2.el7.noarch.rpm
-
 
 yum install zabbix-agent
 ```
@@ -252,7 +252,7 @@ Agent interfaces -> Port 10050
 Añadimos un nuevo Host
 Host name: centOS
 Groups in groups -> Linux servers
-Agent interfaces -> IP address: 192.168.56.105
+Agent interfaces -> IP address: 192.168.56.110
 
 ![aniadirhostenwebubuntuserver](images/aniadirhostenwebubuntuserver.JPG)
 
@@ -287,10 +287,10 @@ Show value: As is
 New application: (en blanco)
 Applications: SSH service 
 ```
+
 ![crearitemescuche22022centos](images/crearitemescuche22022centos.JPG)
 
 ![hostsmonitorizando](images/hostsmonitorizando.JPG)
-
 
 
 :tada:  :tada:  :tada: :tada: :tada: 
