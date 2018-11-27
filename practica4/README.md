@@ -112,7 +112,7 @@ Comprobamos el estado del Servidor de Zabbix con: `systemctl status zabbix-serve
 
 ### 2. Configuración de la Interfaz Web de Zabbix
 
-*Introducimos en nuestro navegador de confianza:* `
+*Introducimos en nuestro navegador de confianza:*
 
 ```
 192.168.56.105.zabbix
