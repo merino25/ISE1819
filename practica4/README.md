@@ -320,15 +320,15 @@ Monitorización de la carga:
 
 ##Documentación
 
-* [How to Install Zabbix Agent on CentOS/RHEL 7/6]: https://tecadmin.net/install-zabbix-agent-on-centos-rhel/
-* [Zabbix Documentation 3.4 (centOS)]: https://www.zabbix.com/documentation/3.4/manual/installation/install_from_packages/rhel_centos
-* [Zabbix Documentation 3.4 (UBUSERVER)]: https://www.zabbix.com/documentation/3.4/manual/installation/install_from_packages/debian_ubuntu
-* [Install and use Zabbix 3.2 on CentOS 7 or RHEL 7]: http://jensd.be/393/linux/install-zabbix-on-centos-7-or-rhel-7
-* [Zabbix Documentation 3.4 (5 Simple checks)]: https://www.zabbix.com/documentation/3.4/manual/config/items/itemtypes/simple_checks
-* [How to Install and Configure Zabbix to Securely Monitor Remote Servers on Ubuntu 16.04]: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-zabbix-to-securely-monitor-remote-servers-on-ubuntu-16-04
-* [Zabbix Documentation 3.2 (agent installation)]: https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/agent_installation
-* [Zabbix Documentation 3.2 (Server installation with MySQL database)]: https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/server_installation_with_mysql
-* [ZHow to Install and configure Zabbix agent 3.4 on CentOS 7]: https://computingforgeeks.com/how-to-install-and-configure-zabbix-agent-3-4-on-centos-7/
+[How to Install Zabbix Agent on CentOS/RHEL 7/6]: https://tecadmin.net/install-zabbix-agent-on-centos-rhel/
+[Zabbix Documentation 3.4 (centOS)]: https://www.zabbix.com/documentation/3.4/manual/installation/install_from_packages/rhel_centos
+[Zabbix Documentation 3.4 (UBUSERVER)]: https://www.zabbix.com/documentation/3.4/manual/installation/install_from_packages/debian_ubuntu
+[Install and use Zabbix 3.2 on CentOS 7 or RHEL 7]: http://jensd.be/393/linux/install-zabbix-on-centos-7-or-rhel-7
+[Zabbix Documentation 3.4 (5 Simple checks)]: https://www.zabbix.com/documentation/3.4/manual/config/items/itemtypes/simple_checks
+[How to Install and Configure Zabbix to Securely Monitor Remote Servers on Ubuntu 16.04]: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-zabbix-to-securely-monitor-remote-servers-on-ubuntu-16-04
+[Zabbix Documentation 3.2 (agent installation)]: https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/agent_installation
+[Zabbix Documentation 3.2 (Server installation with MySQL database)]: https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/server_installation_with_mysql
+[ZHow to Install and configure Zabbix agent 3.4 on CentOS 7]: https://computingforgeeks.com/how-to-install-and-configure-zabbix-agent-3-4-on-centos-7/
 
 
 
