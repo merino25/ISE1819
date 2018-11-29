@@ -319,6 +319,7 @@ Monitorización de la carga:
 
 
 ##Documentación
+
 * [How to Install Zabbix Agent on CentOS/RHEL 7/6]: https://tecadmin.net/install-zabbix-agent-on-centos-rhel/
 * [Zabbix Documentation 3.4 (centOS)]: https://www.zabbix.com/documentation/3.4/manual/installation/install_from_packages/rhel_centos
 * [Zabbix Documentation 3.4 (UBUSERVER)]: https://www.zabbix.com/documentation/3.4/manual/installation/install_from_packages/debian_ubuntu
