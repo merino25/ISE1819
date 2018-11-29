@@ -115,7 +115,7 @@ Comprobamos el estado del Servidor de Zabbix con: `systemctl status zabbix-serve
 *Introducimos en nuestro navegador de confianza:*
 
 ```
-192.168.56.105.zabbix
+192.168.56.105/zabbix
 ```
 Pasamos de la ventana de Bienvenida, (Welcome) a la pantalla Check of pre-requisites, vamos pasando con la pestaña Next step.
 
